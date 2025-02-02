@@ -2,21 +2,33 @@ commands:
 
 
 **lscpu** -
-     socket - actual number of cpu
-     cores - cores in each cpu
+     socket - actual number of cpu,
+
+     cores - cores in each cpu,
+
      threads - thread per each core
+
+
 **free -h** -
-    -h  human readable format, provides data with units 
+    
+     -h  human readable format, provides data with units 
  
+
 **df -h** 
-      disk free command to check storage details of all file systems
+      
+      disk free command to check storage details of all file systems,
+
       df -h .   - for current directory usage
  
 **du -sh**
+     
      disk usage command - to check how much storage is occupied by the current folder 
+     
      -s   -  summarize the total usage
+     
      -h  - human readble 
-     du -sh *  - to get usage for all the files/folders instead of checking each folder manually
+     
+      du -sh *  - to get usage for all the files/folders instead of checking each folder manually
 
 
 
