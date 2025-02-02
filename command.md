@@ -10,7 +10,7 @@ commands:
      threads - thread per each core
 
 
-**free -h** -
+**free -h** 
     
      -h  human readable format, provides data with units 
  
