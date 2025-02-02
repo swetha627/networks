@@ -2,6 +2,7 @@ commands:
 
 
 **lscpu** -
+     
      socket - actual number of cpu,
 
      cores - cores in each cpu,
@@ -33,15 +34,21 @@ commands:
 
 
 
-**Ifconfig** - Interface Configuration
+**Ifconfig** - 
+
+   Interface Configuration
  
-hostname -I - for address
+hostname -I 
  
-**ip route / route** -n  [these two commands to list the routing table]
+**ip route / route**   
+
+     these two commands to list the routing table
  
 ping  - to check network connectivity
  
-**traceroute** -  trace how the packet is reaching destination.  example : traceroute google.com 
+**traceroute** -  
+     
+     trace how the packet is reaching destination.  example : traceroute google.com 
  
 netstat [-a | -tln | -ulp]
  
