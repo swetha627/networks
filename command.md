@@ -34,9 +34,7 @@ commands:
 
 
 
-**Ifconfig** - 
-
-   Interface Configuration
+**Ifconfig** - Interface Configuration
  
 hostname -I 
  
