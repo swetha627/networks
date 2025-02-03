@@ -2,6 +2,18 @@
 ### commands:
 
 
+##### Block device commands :
+
+**lshw -short**   to list all the hardware
+
+**lsblk** -  list of block devices ( block devices as in hard disk, flash drives etc) 
+
+**lsblk -o name,rota** (no space after comma)   - rota(rotational) - tell us that if the device is HDD or SSD
+
+**lsblk -f**  - UUID of the device also will be displayed
+   
+**lsblk -t**  -  whole topology will be displayed
+
 **lscpu** -
      
      socket - actual number of cpu,
@@ -33,7 +45,7 @@
       du -sh *  - to get usage for all the files/folders instead of checking each folder manually
 
 
-
+##### Networks 
 
 **Ifconfig** - Interface Configuration
  
