@@ -1,4 +1,5 @@
-commands:
+
+### commands:
 
 
 **lscpu** -
@@ -36,27 +37,25 @@ commands:
 
 **Ifconfig** - Interface Configuration
  
-hostname -I 
+**hostname -I** 
  
 **ip route / route**   
 
      these two commands to list the routing table
  
-ping  - to check network connectivity
+**ping**  - to check network connectivity
  
 **traceroute** -  
      
      trace how the packet is reaching destination.  example : traceroute google.com 
  
-netstat [-a | -tln | -ulp]
+**netstat [-a | -tln | -ulp]**
  
-ss - socket statstics , similar to netstat
+**ss** - socket statstics , similar to netstat
  
-Hostname
+**nslookup**
  
-nslookup
- 
-dig - similar to nslookup
+**dig** - similar to nslookup
  
 **route** - Destination     Gateway         Genmask         Flags Metric Ref    Use Iface  - all these will be listed, 
 route add  -  used to add routes into rotue table
@@ -65,11 +64,11 @@ route add  -  used to add routes into rotue table
  
 **telnet** - access remote host but with no encryption like ssh
  
-scp  - secure copy
+**scp**  - secure copy
  
-wget  - to download from internet
+**wget**  - to download from internet
  
-curl
+**curl**
  
 **Iftop** - display bandwidth on the interface
  
@@ -81,4 +80,4 @@ curl
  
 **mtr**  - similar to traceroute - network diagnostic tool
  
-fping - ping multiple host together
+**fping** - ping multiple host together
