@@ -45,6 +45,21 @@
       du -sh *  - to get usage for all the files/folders instead of checking each folder manually
 
 
+##### sytemd commands
+
+**systemctl enable <service-name>**
+
+**systemctl disable <service-name>**
+
+**systemctl start <service-name>**
+
+**systemctl stop <service-name>**
+
+**systemctl enable --now <service-name>** - to enable and start in one short
+
+**systemctl status <service-name>**
+
+
 ##### Networks 
 
 **Ifconfig** - Interface Configuration
